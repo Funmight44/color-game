@@ -122,3 +122,26 @@ p{
   .celebrate {
     animation: celebration 0.5s ease-in-out;
   }
+
+
+
+  @media (max-width: 650px) {
+    .gameContainer{
+      width: 350px;
+      height: 500px;
+    }
+
+    .colorBox{
+      width: 300px;
+    }
+
+    .colorButtons{
+      width: 350px;
+      margin-left: 60px;
+    }
+
+    .gameButton{
+      margin-left: 120px;
+      font-size: 16px;
+    }
+  }
